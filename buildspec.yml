@@ -3,6 +3,10 @@ environment_variables:
     plaintext:
         S3_BUCKET: "dev.w2018.thinkpiecepartners.com"
 phases:
+    pre_build:
+        commands:
+            - aws s3 rm s3://${S3_BUCKET}/* --recursive
+            - echo Cleared S3 contents`
     post_build:
          commands:
             - aws s3 cp . s3://${S3_BUCKET} --recursive --acl public-read
