@@ -5,7 +5,7 @@ environment_variables:
 phases:
     pre_build:
         commands:
-            - aws s3 rm s3://${S3_BUCKET}/* --recursive
+            - aws s3 rm s3://${S3_BUCKET}/ --recursive
             - echo Cleared S3 contents`
     post_build:
          commands:
