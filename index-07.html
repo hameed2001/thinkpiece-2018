@@ -9,7 +9,7 @@
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -59,7 +59,7 @@
                 <div class="fullwidth-slider owl-carousel">
                     
                     <!-- Slide Item -->
-                    <div class="js-height-full" style="background: url(images/full-width-images/Reimagined.png);background-size:100%;">
+                    <div class="js-height-full" style="background: url(images/full-width-images/Reimagined.png) center center / cover no-repeat;">
                     
                         <div class="home-content container">
                             <div class="home-text">
@@ -68,12 +68,13 @@
                                     <!-- Headings -->
                                     
                                     <div class="banner-text-heading">
-                                        Qualitative Research. Reimagined for you
+                                        Qualitative Research. Reimagined for you.
                                     </div>
                                     
                                     <!-- End Headings -->
                                     
                                 </div>
+								<div class="banner-logo"><img src="images/logo.png"></div>
                             </div>
                         </div>
                         
@@ -81,7 +82,7 @@
                     <!-- End Slide Item -->
                     
                     <!-- Slide Item -->
-                    <div class="js-height-full"  style="background: url(images/full-width-images/ResearchAction.png);background-size:100%;">
+                    <div class="js-height-full"  style="background: url(images/full-width-images/ResearchAction.png) center center / cover no-repeat;">
                     
                         <div class="home-content container">
                             <div class="home-text">
@@ -97,6 +98,7 @@
                                     <!-- End Headings -->
                                     
                                 </div>
+								<div class="banner-logo"><img src="images/logo.png"></div>
                             </div>
                         </div>
                         
@@ -104,7 +106,7 @@
                     <!-- End Slide Item -->   
                     
                     <!-- Slide Item -->
-                    <div class="js-height-full"  style="background: url(images/full-width-images/FinishLine.jpg);background-size:100%;">
+                    <div class="js-height-full"  style="background: url(images/full-width-images/FinishLine.jpg)  center center / cover no-repeat;">
                     
                         <div class="home-content container">
                             <div class="home-text">
@@ -119,6 +121,7 @@
                                     <!-- End Headings -->
                                     
                                 </div>
+								<div class="banner-logo"><img src="images/logo.png"></div>
                             </div>
                         </div>
                         
@@ -135,10 +138,10 @@
             <nav class="main-nav js-stick dark">
                 <div class="full-wrapper relative clearfix">
                 	
-                    <!-- Logo ( * your text or image into link tag *) 
+                    <!-- Logo ( * your text or image into link tag *) -->
                     <div class="nav-logo-wrap local-scroll">
-                        <a href="#top" class="logo"><img src="images/logo-white.png" width="80" height="27" alt="" /></a>
-                    </div>-->
+                        <a href="#top" class="logo"><img src="images/logo.png" alt="ThinkPiece Partners" /></a>
+                    </div>
 					
 					<div class="mobile-nav"><i class="fa fa-bars"></i></div>
 					
@@ -160,7 +163,7 @@
             
             
             <!-- About Us Section -->
-            <section class="page-section bg-gray-lighter" id="ourstory">
+            <section class="page-section ourstory-section" id="ourstory">
                 <div class="container relative">
                     
                     <!-- Section Headings -->
@@ -170,23 +173,23 @@
                                 Our Story
                             </div>
                             <!--<h2 class="section-heading">We&rsquo;re branding &amp;&nbsp;digital studio from New&nbsp;York</h2>-->
-                            <div class="mb-60 mb-xxs-30"></div>
+                            <div class="mb-40 mb-xxs-30"></div>
                         </div>
                         
                     </div>
                     <!-- End Section Headings -->
                     
                     <!-- Nav Tabs -->
-                    <div class="align-center mb-50 mb-xxs-30">
+                    <div class="align-center mb-0 mb-xxs-30">
                         <ul class="nav nav-tabs tpl-minimal-tabs animate">
                             <li class="active">
-                                <a href="#one" data-toggle="tab">About</a>
+                                <a id="lnkabout" href="#one" data-toggle="tab">About</a>
                             </li>
                             <li>
-                                <a href="#two" data-toggle="tab">Value</a>
+                                <a id="lnkvalue" href="#two" data-toggle="tab">Value</a>
                             </li>
                             <li>
-                                <a href="#three" data-toggle="tab">Vision</a>
+                                <a id="lnkvision" href="#three" data-toggle="tab">Vision</a>
                             </li>
                         </ul>
                     </div>
@@ -197,10 +200,11 @@
                         
                         <!-- About -->
                         <div class="tab-pane fade in active" id="one">
-                            <div class="row">
+                            <div class="row pt-20">
                                 <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
                                     <div class="about-section-text">
                                         We're more than a vendor. We're Thinkpiece Partners.
+										<img src="images/About.png"/>
                                     </div>
                                 </div>
                             </div>
@@ -277,7 +281,7 @@
                                 
                                 <!-- Alt Service Item -->
                                 <div class="alt-service-wrap">                                
-                                    <div class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
+                                    <div id="pnlExpertise" class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
                                         <h3 class="alt-services-title">Expertise</h3>
                                         Our Moderators are practitioners from the industries they research. <br><br>
 They use real-world experience gained from working in areas such as healthcare, technology, and management to build trust with respondents. This insider wisdom allows every moderator to lead conversations, not interviews, and naturally build trust with every respondent.
@@ -287,7 +291,7 @@ They use real-world experience gained from working in areas such as healthcare, 
                                 
                                 <!-- Alt Service Item -->
                                 <div class="alt-service-wrap">
-                                    <div class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
+                                    <div id="pnlPartners" class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
                                         <h3 class="alt-services-title">Partners</h3>
                                         We're designed to become a natural extension of your business from minute one.<br><br>
 We work together with you to understand your unique expectations, so we can stay sharply focused on your end goal.
@@ -302,7 +306,7 @@ We work together with you to understand your unique expectations, so we can stay
                             <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
                                 
                                 <div class="alt-services-image animate-init" data-anim-type="fade-in-up" data-anim-delay="200">
-                                    <img src="images/Expertise.jpg" alt="" />
+                                    <img id="imgMission" src="images/Expertise.jpg" alt="" />
                                 </div>
                                 
                             </div>
@@ -312,7 +316,7 @@ We work together with you to understand your unique expectations, so we can stay
                                 
                                 <!-- Alt Service Item -->
                                 <div class="alt-service-wrap">
-                                    <div class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
+                                    <div id="pnlCreative" class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
                                         <h3 class="alt-services-title">Creative</h3>
                                         Our Analysts are writers and social scientists.<br><br>
 A unique combination of critical thinking and communication allows them to bring creative analyses to every project. The result is a report that tells a meaningful story and offers solutions to the challenges you face.
@@ -322,7 +326,7 @@ A unique combination of critical thinking and communication allows them to bring
                                 
                                 <!-- Alt Service Item -->
                                 <div class="alt-service-wrap">
-                                    <div class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
+                                    <div id="pnlEfficient" class="alt-service-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
                                         <h3 class="alt-services-title">Efficient</h3>
                                         Our Operations Team keeps everything moving forward.<br><br>
 From full-service recruitment to managing everything back-of-house, they make sure every project starts smoothly and finishes without a hitch. They also keep you in the loop every step of the way, meaning surprises are at a minimum.
@@ -379,10 +383,13 @@ Most importantly, it allows you to move your business from what is to what can b
                                             <span class="clients-logo spark-logo"></span>
                                         </div>
                                         <h3 class="service-title">Sometimes, speed is everything.</h3>
-                                    </div>
-                                    <div class="service-descr">
+										<div class="service-intro-descr">
                                         Time isn't always on your side. Information should be. We can design and complete special projects, report and all, in as little as 6 days (depending on the number of respondents).
                                     </div>
+                                    </div>
+                                    <!--<div class="service-descr">
+                                        Time isn't always on your side. Information should be. We can design and complete special projects, report and all, in as little as 6 days (depending on the number of respondents).
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -397,10 +404,14 @@ Most importantly, it allows you to move your business from what is to what can b
                                             <span class="clients-logo pace-logo"></span>
                                         </div>
                                         <h3 class="service-title">Results. Always on schedule.</h3>
-                                    </div>
-                                    <div class="service-descr">
+										<div class="service-intro-descr">
                                         A custom study may be more than you need. That's okay. Qualitative research can still offer a solution. Our scheduled omnibus studies in technology, healthcare, and more can do the trick.
                                     </div>
+
+                                    </div>
+                                    <!--<div class="service-descr">
+                                        A custom study may be more than you need. That's okay. Qualitative research can still offer a solution. Our scheduled omnibus studies in technology, healthcare, and more can do the trick.
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -415,10 +426,13 @@ Most importantly, it allows you to move your business from what is to what can b
                                             <span class="clients-logo edge-logo"></span>
                                         </div>
                                         <h3 class="service-title">Advisory board management. Simplified.</h3>
-                                    </div>
-                                    <div class="service-descr">
+										<div class="service-intro-descr">
                                         You enjoy the benefits of an advisory board, and we'll handle the details. We build, moderate, report on, and manage advisory boards (short or long term) so you get the high-level feedback you need.
                                     </div>
+                                    </div>
+                                    <!--<div class="service-descr">
+                                        You enjoy the benefits of an advisory board, and we'll handle the details. We build, moderate, report on, and manage advisory boards (short or long term) so you get the high-level feedback you need.
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -433,10 +447,13 @@ Most importantly, it allows you to move your business from what is to what can b
                                             <span class="clients-logo huddle-logo"></span>
                                         </div>
                                         <h3 class="service-title">Always reliably connected.</h3>
-                                    </div>
-                                    <div class="service-descr">
+										<div class="service-intro-descr">
                                         In house web conferencing to keep you connected. Whoever you're talking to and wherever they may be, we make it happen.
                                     </div>
+                                    </div>
+                                    <!--<div class="service-descr">
+                                        In house web conferencing to keep you connected. Whoever you're talking to and wherever they may be, we make it happen.
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -451,10 +468,13 @@ Most importantly, it allows you to move your business from what is to what can b
                                             <span class="clients-logo stream-logo"></span>
                                         </div>
                                         <h3 class="service-title">Transcripts on the spot.</h3>
-                                    </div>
-                                    <div class="service-descr">
+										<div class="service-intro-descr">
                                         Real-time transcripts to keep you moving forward. Accurate transcriptions for review, sharing, and analysis as interviews occur. Coming late 2018.
                                     </div>
+                                    </div>
+                                    <!--<div class="service-descr">
+                                        Real-time transcripts to keep you moving forward. Accurate transcriptions for review, sharing, and analysis as interviews occur. Coming late 2018.
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -469,10 +489,13 @@ Most importantly, it allows you to move your business from what is to what can b
                                             <span class="clients-logo play-logo"></span>
                                         </div>
                                         <h3 class="service-title">Reports like you've never seen before.</h3>
-                                    </div>
-                                    <div class="service-descr">
+										<div class="service-intro-descr">
                                         Compelling reports to make your story engaging and effective. Make your case directly, powerfully and more creatively with video and motion graphics.
                                     </div>
+                                    </div>
+                                    <!--<div class="service-descr">
+                                        Compelling reports to make your story engaging and effective. Make your case directly, powerfully and more creatively with video and motion graphics.
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -506,7 +529,7 @@ Most importantly, it allows you to move your business from what is to what can b
                         <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
                             <div class="team-item-image">
-                                <img src="images/team/team-1.jpg" alt="" />
+                                <img src="images/team/Bonnie.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Hello people!</h4>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -531,7 +554,7 @@ Most importantly, it allows you to move your business from what is to what can b
                         <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
                             <div class="team-item-image">
-                                <img src="images/team/team-2.jpg" alt="" />
+                                <img src="images/team/John.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Nice to meet</h4>
                                     Lorem ipsum dolor sit amet, consectetur lacus, a&nbsp;iaculis diam. 
@@ -556,7 +579,7 @@ Most importantly, it allows you to move your business from what is to what can b
 						<!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
                             <div class="team-item-image">
-                                <img src="images/team/team-1.jpg" alt="" />
+                                <img src="images/team/Kip.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Hello people!</h4>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -581,7 +604,7 @@ Most importantly, it allows you to move your business from what is to what can b
                         <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
                             <div class="team-item-image">
-                                <img src="images/team/team-2.jpg" alt="" />
+                                <img src="images/team/Alisha.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Nice to meet</h4>
                                     Lorem ipsum dolor sit amet, consectetur lacus, a&nbsp;iaculis diam. 
@@ -609,7 +632,7 @@ Most importantly, it allows you to move your business from what is to what can b
                         <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
                             <div class="team-item-image">
-                                <img src="images/team/team-3.jpg" alt="" />
+                                <img src="images/team/Kristen.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Woof Woof</h4>
                                     Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -633,7 +656,7 @@ Most importantly, it allows you to move your business from what is to what can b
 						                        <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="100">
                             <div class="team-item-image">
-                                <img src="images/team/team-1.jpg" alt="" />
+                                <img src="images/team/Liz.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Hello people!</h4>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -658,7 +681,7 @@ Most importantly, it allows you to move your business from what is to what can b
                         <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="200">
                             <div class="team-item-image">
-                                <img src="images/team/team-2.jpg" alt="" />
+                                <img src="images/team/Colleen.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Nice to meet</h4>
                                     Lorem ipsum dolor sit amet, consectetur lacus, a&nbsp;iaculis diam. 
@@ -683,7 +706,7 @@ Most importantly, it allows you to move your business from what is to what can b
                         <!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
                             <div class="team-item-image">
-                                <img src="images/team/team-3.jpg" alt="" />
+                                <img src="images/team/Sam.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Woof Woof</h4>
                                     Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -707,11 +730,12 @@ Most importantly, it allows you to move your business from what is to what can b
 
                     </div>
                     <!-- End Team Grid -->
+					<!-- Start Team Grid -->
                     <div class="team-grid">
 						<!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
                             <div class="team-item-image">
-                                <img src="images/team/team-3.jpg" alt="" />
+                                <img src="images/team/Laura.png" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Woof Woof</h4>
                                     Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -736,7 +760,7 @@ Most importantly, it allows you to move your business from what is to what can b
 						<!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
                             <div class="team-item-image">
-                                <img src="images/team/team-3.jpg" alt="" />
+                                <img src="images/team/team-1.jpg" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Woof Woof</h4>
                                     Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -761,7 +785,7 @@ Most importantly, it allows you to move your business from what is to what can b
 						<!-- Team Item -->
                         <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
                             <div class="team-item-image">
-                                <img src="images/team/team-3.jpg" alt="" />
+                                <img src="images/team/team-1.jpg" alt="" />
                                 <div class="team-item-detail">
                                     <h4 class="serif">Woof Woof</h4>
                                     Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
@@ -794,7 +818,7 @@ Most importantly, it allows you to move your business from what is to what can b
                             </div>
                             <div class="team-item-descr">
                                 <div class="team-item-name">
-                                    name, name
+                                    Nancy Miller
                                 </div>
                                 <div class="team-item-role">
                                     Operations Coordinator
@@ -806,10 +830,64 @@ Most importantly, it allows you to move your business from what is to what can b
                                 </div>
                             </div>
                         </div>
-                        <!-- End Team Item -->
-						
+                        <!-- End Team Item -->						
 					</div>
                     <!-- End Team Grid -->
+					<!-- Start Team Grid -->
+                    <div class="team-grid">
+						<!-- Team Item -->
+                        <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
+                            <div class="team-item-image">
+                                <img src="images/team/team-3.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <h4 class="serif">Woof Woof</h4>
+                                    Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
+                                </div>
+                            </div>
+                            <div class="team-item-descr">
+                                <div class="team-item-name">
+                                    John Bray
+                                </div>
+                                <div class="team-item-role">
+                                    Executive Assistant, Office Manager
+                                </div>
+                                <div class="team-social-links">
+                                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Team Item -->
+						
+						<!-- Team Item -->
+                        <div class="team-item animate-init" data-anim-type="fade-in" data-anim-delay="300">
+                            <div class="team-item-image">
+                                <img src="images/team/team-3.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <h4 class="serif">Woof Woof</h4>
+                                    Curabitur eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
+                                </div>
+                            </div>
+                            <div class="team-item-descr">
+                                <div class="team-item-name">
+                                    Chris Dethloff
+                                </div>
+                                <div class="team-item-role">
+                                    Moderator
+                                </div>
+                                <div class="team-social-links">
+                                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Team Item -->
+												
+					</div>
+                    <!-- End Team Grid -->
+
                 </div>
             </section>
             <!-- End Team Section -->
@@ -884,21 +962,21 @@ Most importantly, it allows you to move your business from what is to what can b
                                         
                                         <!-- Name -->
                                         <div class="form-group">
-                                            <input type="text" name="name" id="name" class="ci-field form-control" placeholder="Name" pattern=".{3,100}" required>
+                                            <input type="text" name="name" id="name" tabindex="1" class="ci-field form-control" placeholder="Name" pattern=".{3,100}" required>
                                         </div>
                                         
                                         <!-- Email -->
                                         <div class="form-group">
-                                            <input type="text" name="organization" id="organization" class="ci-field form-control" placeholder="Organization" required>
+                                            <input type="text" name="organization" tabindex="3" id="organization" class="ci-field form-control" placeholder="Organization" required>
                                         </div>
 										<div class="form-group radio-toggle">
                                         <label class="form-check-label  clrbPhone">
                                             Phone
-                                            <input class="form-check-input" type="radio" name="rbcontact" id="rbphone" value="Phone" checked>
+                                            <input class="form-check-input"  tabindex="4" type="radio" name="rbcontact" id="rbphone" value="Phone" checked>
                                         </label>
                                         <label class="form-check-label clrbEmail">
                                             Email
-                                            <input class="form-check-input" type="radio" name="rbcontact" id="rbemail" value="Email">
+                                            <input class="form-check-input" type="radio" tabindex="5" name="rbcontact" id="rbemail" value="Email">
                                         </label>
                                     </div>
                                     </div>
@@ -906,7 +984,7 @@ Most importantly, it allows you to move your business from what is to what can b
                                     <div class="cf-right-col">
                                         <!-- Position -->
                                         <div class="form-group">
-                                            <input type="text" name="position" id="position" class="ci-field form-control" placeholder="Position" pattern=".{3,100}" required>
+                                            <input type="text" name="position" id="position" tabindex="2" class="ci-field form-control" placeholder="Position" pattern=".{3,100}" required>
                                         </div>                                        
                                     </div>
                                     
@@ -915,7 +993,7 @@ Most importantly, it allows you to move your business from what is to what can b
 								<div class="cf-left-col">
 									<!-- Email -->
                                         <div class="form-group">
-                                            <input id="lblphone" type="text" placeholder="Phone" name="phone" required  class="ci-field form-control"  pattern="^(?=.*?[1-9])[+ 0-9()-]+$" >
+                                            <input id="lblphone" type="text" placeholder="Phone"  tabindex="6" name="phone" required  class="ci-field form-control"  pattern="^(?=.*?[1-9])[+ 0-9()-]+$" >
                                         </div>
 										<div class="form-group">
 											<div class="g-recaptcha" data-sitekey="6Lfli2UUAAAAAA0P88PHyHpHDcY3ESvQpldK9p5e"></div>
@@ -924,12 +1002,12 @@ Most importantly, it allows you to move your business from what is to what can b
 								<div class="cf-right-col">
 									<!-- Email -->
                                         <div class="form-group">
-                                            <input id="lblemail" type="email" placeholder="Email" name="email" class="ci-field form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                                            <input id="lblemail" type="email" placeholder="Email"  tabindex="7" name="email" class="ci-field form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                                         </div>
 								</div>
 								</div>
                                 <!-- Send Button -->
-                                <button class="submit_btn btn btn-mod btn-large btn-full ci-btn" id="submit_btn">
+                                <button class="submit_btn btn btn-mod btn-large btn-full ci-btn" tabindex="9" id="submit_btn">
                                     Send
                                 </button>
                                 
@@ -1055,6 +1133,35 @@ Most importantly, it allows you to move your business from what is to what can b
 		<script>
         $(function ($) {
             $('.radio-toggle').toggleInput();
+        });
+		$(function ($) {
+            $('#pnlExpertise').mouseover(function(){
+			$('#imgMission').attr("src","images/Expertise.jpg");
+			});
+			
+			$('#pnlEfficient').mouseover(function(){
+			$('#imgMission').attr("src","images/Efficient.jpg");
+			});
+			
+			$('#pnlPartners').mouseover(function(){
+			$('#imgMission').attr("src","images/Partners.jpg");
+			});
+			
+			$('#pnlCreative').mouseover(function(){
+			$('#imgMission').attr("src","images/Creative.jpg");
+			});
+			
+			$('#lnkvalue').click(function(){
+			$('#ourstory').attr('class','page-section value-tab');
+			});
+			
+			$('#lnkabout').click(function(){
+			$('#ourstory').attr('class','page-section ourstory-section');
+			});
+			
+			$('#lnkvision').click(function(){
+			$('#ourstory').attr('class','page-section vision-tab');
+			});
         });
 		</script>
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
