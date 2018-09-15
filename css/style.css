@@ -1601,12 +1601,29 @@ a.btn-mod:focus{
 
 /* Logo (in navigation panel)*/
 
-.nav-logo-wrap{
-	float: left;
-	margin-right: 20px;
+.nav-logo-wrap {
+    float: left;
+    /* margin-right: 20px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* height: 40px; */
+    /* padding: 5px; */
+    vertical-align: middle;
+}
+.nav-logo-wrap img{
+    height: 40px;
+}
+.banner-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15%;
+    margin: auto;
 }
 .nav-logo-wrap .logo{
-	display: table-cell;
 	vertical-align: middle;
 	max-width: 100px;
 	max-height: 100%;
@@ -2508,6 +2525,7 @@ a.logo:hover{
 	letter-spacing: 1px;
 	color: #333;
 }
+.service-intro-data{};
 .service-descr .service-title{
 	margin-bottom: 30px;
 }
@@ -2546,7 +2564,7 @@ a.logo:hover{
 
 /* Service hover */
 
-.no-mobile .service-item:hover .service-intro{
+/*.no-mobile .service-item:hover .service-intro{
 	opacity: 0;	
 	
 	-webkit-transform: scale(0);
@@ -2564,7 +2582,7 @@ a.logo:hover{
 	-ms-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 	transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);    
 }
-
+*/
 /* Service mobile click */
 
 .service-item.js-active .service-intro{
@@ -5094,7 +5112,7 @@ section:hover .small-item-carousel .owl-next{
 	border: none;
 }
 .tpl-minimal-tabs > li{
-	padding: 0 30px;
+	padding: 0 20px;
 	background: none !important;
 }
 .tpl-minimal-tabs > li > a{
@@ -5445,16 +5463,6 @@ section:hover .small-item-carousel .owl-next{
     margin: -1px 0 0 -1px;
     font-size: 13px;
 }
-@media only screen and (max-width: 1024px) {
-    .sli-examples .item{
-        width: 50%;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .sli-examples .item{
-        width: 100%;
-    }
-}
 .sli-examples .item:hover{
     background: #f0f0f0;
     color: #000;
@@ -5539,13 +5547,13 @@ section:hover .small-item-carousel .owl-next{
     opacity: 0.92;
 }
 .about-section-text {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 300;
     text-align: center;
     color: #333;
     line-height: 1.8;
 }
-.services-background{background:url('../images/7Solutions.jpg');background-size:100%;}
+.services-background{background:url('../images/7Solutions.jpg');background-size:cover;background-position:center;}
 .clients-logo{    display: block;
     min-height: 60px;
 }
@@ -5611,6 +5619,57 @@ section:hover .small-item-carousel .owl-next{
     margin-top: 15px;
 }
  .contact-section{background:#006f8f;}
+  .ourstory-section{padding:100px 0 0 !important;}
+ .value-tab {
+    background: url(../images/Value.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+	padding:100px 0 !important;
+}
+.vision-tab {
+    background: url(../images/Vision.png);
+    background-size:cover;
+    background-position: bottom;
+    padding:100px 0 280px !important;
+	color: #333;
+    font-size: 12px;
+}
+.vision-tab .about-section-text {
+    color: #fff;
+}
+.service-intro-descr {
+    color: #333;
+    font-size: 12px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1024px) {
+    .sli-examples .item{
+        width: 50%;
+    }
+	.banner-text-heading{font-size:30px;}
+	.nav-logo-wrap{padding:0;}
+	.nav-logo-wrap img {
+    height: 30px;
+}
+.ssh-table {
+    position: relative;
+    height: 550px !important;
+}
+.ssh-cell{    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+}
+@media only screen and (max-width: 480px) {
+    .sli-examples .item{
+        width: 100%;
+    }
+	.team-grid{display:inline-block;}
+}
+
 @media (min-width: 768px) {
 	/* reset previous grid */
 	.multi-columns-row .col-xs-6:nth-child(2n + 3) { clear: none; }
